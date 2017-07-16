@@ -16,13 +16,13 @@
         "subtitleFont": "Lora",
         "textFont": "Raleway",
         "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 0,
+    "uniqCompNum": 3,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -37,6 +37,27 @@
       },
       "components": [
         {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
           "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
@@ -46,6 +67,9 @@
             },
             ".navbar-toggler": {
               "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
               "color": "#ffffff"
@@ -80,27 +104,17 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#c0a375!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
             }
           },
-          "_name": "menu",
-          "_anchor": "menu-0",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1",
           "_params": {
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -122,51 +136,132 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Almenük</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://www.pedigped.hu/history/index.html\" target=\"_blank\">Történelem</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Más webhelyek</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://zanza.tv/tortenelem/az-okori-roma/az-i-triumviratus\" target=\"_blank\">ZANZA minta</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://www.klevai.hu\">KLEVAI</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://www.klevai.hu/index.php/kozepiskola/dolgozoink\">kossuthos tanárok</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://klevai.hu\"><span class=\"mbri-sites mbr-iconfont mbr-iconfont-btn\"></span>KLEVAI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://historialab.webnode.hu/\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>HISTORIALAB</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://pedigped.hu\"><span class=\"mbri-key mbr-iconfont mbr-iconfont-btn\"></span>PEDIGPED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
-          "_name": "header1",
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_anchor": "header1-1",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/past-western-cult-2000x1000.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
-          },
-          "title": "",
-          "text": "Bármilyen nyitó szöveg ...",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"http://www.pedigped.hu/history/index.html\" data-toolbar=\"-mbrBtnMove\">Történelem</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"http://www.pedigped.hu/social_studies/index.html\" data-toolbar=\"-mbrBtnMove\">Ember- és társadalomismeret</a>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-2",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#fff",
             "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "6",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
           },
-          "text": "Copyright (c) 2016 Mobirise."
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ofi-09-cim-csik-600x326.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Címlap",
+              "title": "Fedőlap",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Történelem tankönyv a 9. évfolyam számára",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "",
+          "button1": "<a data-app-btn=\"true\" href=\"http://tankonyvkatalogus.hu/pdf/FI-504011001_1__tartalom.pdf\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Tartalomjegyzék</a> <a data-app-btn=\"true\" href=\"http://tankonyvkatalogus.hu/pdf/FI-504011001_1__tartalom.pdf\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Digitális tankönyv</a> <a data-app-btn=\"true\" href=\"http://tankonyvkatalogus.hu/pdf/FI-504011001_1__tartalom.pdf\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\">Vázlatok</a> <a data-app-btn=\"true\" href=\"http://redmenta.com/?solve&amp;ks_id=353147599\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Redmenta</a> <a data-app-btn=\"true\" href=\"http://LearningApps.org/view1662961\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">LearningApps</a> <a data-app-btn=\"true\" href=\"https://zanza.tv/tortenelem/magyarsag-tortenete-kezdetektol-1490-ig/nepunk-tortenete-az-oshazatol-honfoglalasig\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Zanza tv</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ofi-10-cim-csik-600x318.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Történelem tankönyv a 10. évfolyam számára",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "",
+          "button2": "<a data-app-btn=\"true\" href=\"http://tankonyvkatalogus.hu/pdf/FI-504011001_1__tartalom.pdf\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Tartalomjegyzék</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ofi-11-cim-csik-600x300.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Történelem tankönyv a 11. évfolyam számára",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "",
+          "button3": "<a data-app-btn=\"true\" href=\"http://tankonyvkatalogus.hu/pdf/FI-504011001_1__tartalom.pdf\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Tartalomjegyzék</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ofi-12-cim-csik-600x296.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Történelem tankönyv a 12. évfolyam számára",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "",
+          "button4": "<a data-app-btn=\"true\" href=\"http://tankonyvkatalogus.hu/pdf/FI-504011001_1__tartalom.pdf\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Tartalomjegyzék</a>",
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/500-csik-600x310.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/tesztek01-600x287.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         }
       ]
     }
