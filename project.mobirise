@@ -47,7 +47,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ofi-09-cim-csik-600x326.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ofi-09-cimlap-216x294.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -63,7 +63,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ofi-10-cim-csik-600x318.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ofi-10-cimlap-222x298.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -79,7 +79,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ofi-11-cim-csik-600x300.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ofi-11-cimlap-216x293.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -95,7 +95,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ofi-12-cim-csik-600x296.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ofi-12-cimlap-216x293.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
