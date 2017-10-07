@@ -1,0 +1,80 @@
+#dropdown-menu-4 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-4 .nav .link,
+#dropdown-menu-4 .dropdown-item {
+  font-size: 1em;
+  color: #000000;
+}
+#dropdown-menu-4 .navbar,
+#dropdown-menu-4 .dropdown-menu {
+  background: #c7b5db;
+}
+#dropdown-menu-4 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-4 .dropdown-menu a:hover,
+#dropdown-menu-4 .dropdown-menu a:focus {
+  background: #bda7d4;
+}
+#dropdown-menu-4 .navbar-toggler {
+  color: #000000;
+}
+#dropdown-menu-8 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-8 .nav .link,
+#dropdown-menu-8 .dropdown-item {
+  font-size: 1em;
+  color: #000000;
+}
+#dropdown-menu-8 .navbar,
+#dropdown-menu-8 .dropdown-menu {
+  background: #c7b5db;
+}
+#dropdown-menu-8 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-8 .dropdown-menu a:hover,
+#dropdown-menu-8 .dropdown-menu a:focus {
+  background: #bda7d4;
+}
+#dropdown-menu-8 .navbar-toggler {
+  color: #000000;
+}
+#dropdown-menu-9 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-9 .nav .link,
+#dropdown-menu-9 .dropdown-item {
+  font-size: 1em;
+  color: #000000;
+}
+#dropdown-menu-9 .navbar,
+#dropdown-menu-9 .dropdown-menu {
+  background: #c7b5db;
+}
+#dropdown-menu-9 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-9 .dropdown-menu a:hover,
+#dropdown-menu-9 .dropdown-menu a:focus {
+  background: #bda7d4;
+}
+#dropdown-menu-9 .navbar-toggler {
+  color: #000000;
+}
+#dropdown-menu-a .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-a .nav .link,
+#dropdown-menu-a .dropdown-item {
+  font-size: 1em;
+  color: #000000;
+}
+#dropdown-menu-a .navbar,
+#dropdown-menu-a .dropdown-menu {
+  background: #c7b5db;
+}
+#dropdown-menu-a .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-a .dropdown-menu a:hover,
+#dropdown-menu-a .dropdown-menu a:focus {
+  background: #bda7d4;
+}
+#dropdown-menu-a .navbar-toggler {
+  color: #000000;
+}
