@@ -10,7 +10,9 @@
     },
     "versionFirst": "4.0.17",
     "uniqCompNum": 14,
-    "versionPublish": "4.3.0"
+    "versionPublish": "4.6.6",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -119,7 +121,7 @@
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
           "button1": "<a data-app-btn=\"true\" href=\"assets/files/ofi-09-232.pdf\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Tartalom</a> <a data-app-btn=\"true\" href=\"http://www.pedigped.hu/history/Presentations/09temak/index.html\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">1. témakör</a>     ",
           "button2": "<a data-app-btn=\"true\" href=\"assets/files/ofi-10-233.pdf\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Tartalom</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"assets/files/ofi-11-257.pdf\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Tartalom</a> <a data-app-btn=\"true\" href=\"http://www.pedigped.hu/history/Presentations/11-1fej.htm\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">1. témakör</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"assets/files/ofi-11-257.pdf\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Tartalom</a> <a data-app-btn=\"true\" href=\"http://www.pedigped.hu/history/Presentations/11-1fej.htm\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">1. témakör</a> <a data-app-btn=\"true\" href=\"http://www.pedigped.hu/history/Presentations/11-1fej.htm\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">2. témakör</a> <a data-app-btn=\"true\" href=\"http://www.pedigped.hu/history/Presentations/11-1fej.htm\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">3. témakör</a> <a data-app-btn=\"true\" href=\"http://www.pedigped.hu/history/Presentations/11-1fej.htm\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">4. témakör</a> <a data-app-btn=\"true\" href=\"http://www.pedigped.hu/history/Presentations/11-1fej.htm\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">5. témakör</a> <a data-app-btn=\"true\" href=\"http://www.pedigped.hu/history/Presentations/11-1fej.htm\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">6. témakör</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://pedigped.github.io/history/assets/files/ofi-12-004.pdf\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">Tartalom</a> <a data-app-btn=\"true\" href=\"http://www.pedigped.hu/history/Presentations/12temak/index.html\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">1. témakör</a> <a data-app-btn=\"true\" href=\"http://www.pedigped.hu/history/Presentations/12tema02/index.html\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">2. témakör</a>",
           "alias": "purity/components",
           "_tags": [
